@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- CTRL + A e CTRL + SHIFT + I -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css">
+    <title>Kingdom - Gerenciamento</title>
+</head>
+
+<body>
+    <div class="flex-dashboard">
+        <sidebar>
+            <div class="sidebar-title">
+                <img src="../images/icons8-coroa-64.png">
+                <h2>Hotel <strong>Kingdom</strong></h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <i class="fas fa-house-user"></i>
+                        <a href="">  </i>  Encerramento da Hospedagem </a>
+                    </li>
+                    <li>
+                        <i class="fas fa-hotel"></i>
+                        <a href="gerenciamento.html"> Gerenciamento de Locação </a>
+                    </li>
+                    <li>
+                        <i class="fas fa-user-edit"></i>
+                        <a href="cadastro.html"> Cadastro de Clientes </a>
+                    </li>
+                </ul>
+            </div>
+        </sidebar>
+        
+        <main>
+            <header>
+                <a href="#"> <i class="fas fa-house-user"></i> Dashboard</a>
+                <a href="#"> <i class="fas fa-sign-out-alt"></i> Logout</a>
+            </header>
+            <div class="main-content">
+               <div class="panel">
+                <form>
+                    <div class="form-group">
+                      <label> Locação</label>
+                      <input type="number" class="form-control" placeholder="Número do quarto">
+                    </div>
+                    <label>Acompanhantes</label>
+                    <div class="form-group">
+                      <select class="form-control">
+                        <option>Solteiro</option>
+                        <option>Casal</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <select class="form-control">
+                        <option>Sem criança</option>
+                        <option>1 criança</option>
+                        <option>2 criança</option>
+                        <option>3 criança</option>
+                      </select>
+                    </div>
+                    <label>Estadia</label>
+                    <div class="form-group">
+                      <label> Inicio</label> <input type="date"> 
+                      <label> Fim </label> <input type="date">
+                    </div>
+                    <button type="submit" class="btn">Editar</button>
+                </form>
+                </div>
+                
+                <div class="panel">
+                   
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="plugins/bootstrap/js/bootstrap.min.js"> </script>
+    <script src="plugins/fontawesome/js/all.min.js"></script>
+</body>
+
+</html>

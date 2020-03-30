@@ -28,14 +28,14 @@
 .register .form-grup input{
     font-size: 14px;
 }
-.register button{
+ button{
     margin-top: 40px;
     background : linear-gradient(135deg, #6e8efb, #a777e3);
     color: #fff;
     width: 100%;
     display: block;
 }
-.register button:hover{
+button:hover{
     color: #fff;
 
     transform: scale(1.05);
